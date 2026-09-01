@@ -253,7 +253,7 @@ button, a { -webkit-tap-highlight-color: transparent; }
   background: var(--pine);
 }
 
-.page-transition.active { animation: curtain .9s cubic-bezier(.72,0,.25,1) forwards; }
+.page-transition.active { animation: curtain .45s cubic-bezier(.72,0,.25,1) forwards; }
 @keyframes curtain { 0% { transform: translateY(100%); } 70%,100% { transform: translateY(0); } }
 
 .invitation-page { overflow: clip; animation: invitationIn .9s ease both; }

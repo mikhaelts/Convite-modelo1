@@ -109,7 +109,7 @@ function OpeningExperience({ onEnter }) {
   const openEnvelope = () => {
     if (opening) return
     setOpening(true)
-    window.setTimeout(() => setReady(true), 1650)
+    window.setTimeout(() => setReady(true), 1100)
   }
 
   return (
@@ -384,7 +384,7 @@ function App() {
     transitionTimer.current = window.setTimeout(() => {
       setEntered(true)
       window.scrollTo(0, 0)
-    }, 700)
+    }, 350)
   }
 
   const toggleMusic = () => {
