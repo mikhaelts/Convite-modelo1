@@ -21,9 +21,9 @@ export const wedding = {
   // Para usar outra música, substitua este arquivo mantendo o mesmo nome.
   music: '/audio/musica-instrumental.mp3',
   gallery: [
-    { src: '/images/casal-olival.webp', alt: 'Isabella e Gabriel caminhando pelo olival', className: 'wide' },
-    { src: '/images/casal-retrato.webp', alt: 'Retrato de Isabella e Gabriel no jardim', className: 'tall' },
-    { src: '/images/casal-hero.webp', alt: 'Isabella e Gabriel celebrando o noivado', className: 'square' },
+    { src: '/images/casal-olival.webp', alt: 'Júllia e Mikhael caminhando pelo olival', className: 'wide' },
+    { src: '/images/casal-retrato.webp', alt: 'Retrato de Júllia e Mikhael no jardim', className: 'tall' },
+    { src: '/images/casal-hero.webp', alt: 'Júllia e Mikhael celebrando o noivado', className: 'square' },
   ],
   schedule: [
     { time: '16h30', title: 'Cerimônia', text: 'Pedimos que chegue com 30 minutos de antecedência.' },
